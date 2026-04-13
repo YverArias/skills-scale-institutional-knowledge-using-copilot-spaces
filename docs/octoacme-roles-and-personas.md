@@ -1,81 +1,79 @@
-# OctoAcme Personas
-
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
+# Additional Roles and Personas
 
 ---
 
-## Developers
+## UX/UI Designer
 
-### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+**Role Summary**: Designs user interfaces and optimizes user experience through research-driven design.
 
-### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
+**Responsibilities**
+- Create wireframes, prototypes, and UI designs collaboratively.
+- Conduct usability testing.
+- Drive accessibility and consistency.
 
-### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
-
-### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
+**Interactions**: Collaborate with Product Managers for requirements and Developers for implementation.
 
 ---
 
-## Product Managers
+## Data Analyst/Scientist
 
-### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
+**Role Summary**: Provides data to inform decisions and validate product outcomes.
 
-### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
+**Responsibilities**
+- Analyze key metrics, implement event tracking.
+- Present findings for roadmap prioritization.
+- Support instrumentation with Developers.
 
-### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
-
-### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
+**Interactions**: PMs for strategy, Developers for tracking.
 
 ---
 
-## Project Managers
+## QA Lead
 
-### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
+**Role Summary**: Ensures quality by coordinating end-to-end testing and acceptance.
 
-### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
+**Responsibilities**
+- Develop test plans, manage QA process.
+- Define and enforce acceptance criteria.
+- Track and triage bugs.
 
-### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
-
-### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
+**Interactions**: Developers for issue fixes, PMs for acceptance.
 
 ---
 
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+## DevOps Engineer / SRE
 
+**Role Summary**: Ensures CI/CD, operational reliability, and incident response.
+
+**Responsibilities**
+- Maintain deployment pipelines, monitoring, and incident processes.
+- Guide build/release practices.
+- Partner on capacity planning.
+
+**Interactions**: Developers for builds, PMs for readiness.
+
+---
+
+## Business Analyst
+
+**Role Summary**: Translates business needs into technical and process requirements.
+
+**Responsibilities**
+- Gather/document requirements.
+- Optimize workflows, document value.
+- Clarify objectives with stakeholders.
+
+**Interactions**: PMs, Developers, Designers.
+
+---
+
+## Customer Success Representative
+
+**Role Summary**: Represents the customer, channels feedback into product development.
+
+**Responsibilities**
+- Collect and synthesize user feedback.
+- Share feature changes with users.
+- Advocate customer needs during prioritization.
+
+**Interactions**: PMs for planning, QA for bug/issue insights.
